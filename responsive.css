@@ -1,0 +1,120 @@
+@media(max-width:1024px){
+    .btn{
+        font-size: 1.5rem;
+    }
+    html{
+        font-size: 70%;
+        overflow-x:hidden;
+    }
+    .aside{
+        position: sticky;
+    }
+    .home{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: fit-content;
+    }
+    .home .content{
+        align-items: center;
+        justify-content: center;
+    }
+    .about{
+        display: block;
+    }
+    .about .about-content h3{
+        font-size: 100px;
+    }
+    .about .about-content h1{
+        font-size: 50px;
+    }
+    .about .about-content p{
+        font-size: 25px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .services-container{
+        display: inline-block;
+    }
+    .services-box{
+        width: 70%;
+        margin-bottom: 40px;
+        position: relative;
+        left: 20%;
+        padding: 4rem;
+    }
+    .services-box h3{
+        font-size: 5rem;
+    }
+    .services-box ul li{
+        font-size: 2rem;
+    }
+    .services-box ol li{
+        font-size: 2rem;
+    }
+    .portofolio-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 2.5rem;
+    }
+    .form-row{
+        display: block;
+    }
+    .col input{
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    textarea{
+        font-size: 2rem;
+    }
+    .social-media{
+        text-align: center;
+        justify-content: center;
+    }
+    .aside{
+        display: none;
+    }
+    .footbar{
+        display: flex;
+    }
+
+}
+@media(max-width:760px){
+
+    .home h1 {
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+
+    .home p{
+        margin-left: 2rem;
+        font-size: 12px;
+    }
+
+    .home h2 {
+        margin-left: 2rem;
+        font-size: 20px;
+    }
+
+    .btn {
+        margin-left: 2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 80%;
+    }
+
+    .social-media a {
+        margin: 1.5rem;
+    }
+
+    
+
+}
